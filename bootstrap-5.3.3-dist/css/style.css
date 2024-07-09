@@ -1,7 +1,9 @@
+
 nav,
 main>:nth-child(3),
 main>section:nth-child(8),
 main>section:nth-child(10),
+main>section:nth-child(12),
 .dots{
     background-color: #F5F7FA;
 }
@@ -9,7 +11,8 @@ main>section:nth-child(10),
 header article h1:nth-child(2),
 main section section>h2:nth-child(2),
 main>section:nth-child(10) article h5,
-main>section:nth-child(10) a {
+main>section:nth-child(10) a,
+main>section:nth-child(11) a {
     color: #4CAF4F;
 }
 h6{
@@ -35,10 +38,14 @@ a{
     color: black;
     text-decoration: none;
 }
+
 header article button{
     padding: 10px;
     width: 125px;
     margin: 16px 0px;
+}
+button.d-flex{
+    padding: 10px 20px;
 }
 .bi-list {
     padding: 3px;
@@ -65,4 +72,87 @@ main>section:nth-child(5) img,
 main>section:nth-child(10) section img {
     height: 35px;
     width: 45px;
+}
+a.align-items-center:hover{
+    color: #61ea66;
+}
+button:hover{
+    background-color: #2b922f;
+}
+main>section:nth-child(11) a {
+    
+    
+}
+.absolute{
+    /* position: absolute;
+    top: 145px;
+    right: 10px;
+    left: 10px;
+    background-color: white;
+    opacity: 95%;
+    padding: 5px 21px;
+    border-radius: 7px;
+    margin: -5px 32px;
+    width: fit-content;
+    box-shadow: 0px 8px 11px 0px #b9e0ba; */
+
+    position: absolute;
+    top: 66%;
+    right: 3%;
+    left: 3%;
+    background-color: white;
+    opacity: 95%;
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin: -5px 32px;
+    width: fit-content;
+    box-shadow: 0px 8px 11px 0px #b9e0ba;
+}
+.absolute article {
+    overflow: hidden;
+    max-height: 102px;
+    min-height: 72px;
+}
+footer{
+    background-color: #263238;
+    color: white;
+    
+}
+footer a{
+    color: #cfcdcd;
+}
+footer a:hover{
+    color: white;
+}
+input[type*=s]{
+    background-color: #32424a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    min-width: 30px;
+    max-width: 145px;
+}
+input[type*=s]:focus{
+    outline: none;
+}
+input[type=submit]:hover{
+    background-size: 25px;
+}
+form{
+    background-color: #32424a;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: fit-content;
+}
+input[type=submit],
+.icon-rtl {
+    padding-right: 25px;
+    background: url("/images/send.svg") no-repeat center;
+    background-size: 20px;
+}
+footer picture a{
+    padding: 5px;
+}
+footer{
+    padding: 8%;
 }
