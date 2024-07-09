@@ -108,7 +108,7 @@ footer a{
 footer a:hover{
     color: white;
 }
-input[type*=s]{
+input[type*=m]{
     background-color: #32424a;
     color: white;
     border: none;
@@ -116,7 +116,7 @@ input[type*=s]{
     min-width: 30px;
     max-width: 145px;
 }
-input[type*=s]:focus{
+input[type*=m]:focus{
     outline: none;
 }
 input[type=submit]:hover{
