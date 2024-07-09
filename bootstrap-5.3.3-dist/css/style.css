@@ -79,23 +79,7 @@ a.align-items-center:hover{
 button:hover{
     background-color: #2b922f;
 }
-main>section:nth-child(11) a {
-    
-    
-}
 .absolute{
-    /* position: absolute;
-    top: 145px;
-    right: 10px;
-    left: 10px;
-    background-color: white;
-    opacity: 95%;
-    padding: 5px 21px;
-    border-radius: 7px;
-    margin: -5px 32px;
-    width: fit-content;
-    box-shadow: 0px 8px 11px 0px #b9e0ba; */
-
     position: absolute;
     top: 66%;
     right: 3%;
@@ -144,10 +128,9 @@ form{
     padding: 5px 10px;
     width: fit-content;
 }
-input[type=submit],
-.icon-rtl {
+input[type=submit] {
     padding-right: 25px;
-    background: url("/images/send.svg") no-repeat center;
+    background: url("images/send.svg") no-repeat center;
     background-size: 20px;
 }
 footer picture a{
