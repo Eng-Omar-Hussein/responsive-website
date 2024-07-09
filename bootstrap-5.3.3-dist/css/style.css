@@ -130,7 +130,7 @@ form{
 }
 input[type=submit] {
     padding-right: 25px;
-    background: url("images/send.svg") no-repeat center;
+    background: url("../../images/send.svg") no-repeat center;
     background-size: 20px;
 }
 footer picture a{
